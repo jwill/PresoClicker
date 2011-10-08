@@ -14,7 +14,7 @@ deck.js - http://imakewebthings.github.com/deck.js/
 
 Add the following to your HTML5 slide deck.
 
-`<script type="text/javascript">
+    <script type="text/javascript">
     // Enable pusher logging - don't include this in production
     Pusher.log = function(message) {
       if (window.console && window.console.log) window.console.log(message);
@@ -36,6 +36,6 @@ Add the following to your HTML5 slide deck.
     });
     channel.bind('menu', function(data) {
     });
-  </script>`
+    </script>`
   
 * Note: depends on a web connection for both devices, cell phone/tablet and computer.
