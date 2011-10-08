@@ -36,6 +36,6 @@ Add the following to your HTML5 slide deck.
     });
     channel.bind('menu', function(data) {
     });
-    </script>`
+    </script>
   
 * Note: depends on a web connection for both devices, cell phone/tablet and computer.
